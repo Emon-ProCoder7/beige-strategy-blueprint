@@ -1,0 +1,1 @@
+# beige-strategy-blueprint
