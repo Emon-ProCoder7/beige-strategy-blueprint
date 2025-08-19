@@ -4,7 +4,7 @@ export const Header = () => {
       <div className="container flex h-16 items-center justify-between">
         <div className="flex items-center space-x-4">
           <img src="https://raw.githubusercontent.com/Emon-ProCoder7/beige-strategy-blueprint/refs/heads/main/beige_logo.png" alt="Beige Corporation Logo" className="w-8 h-8" />
-          <span className="text-sm font-medium text-muted-foreground">Beige Corporation</span>
+        
         </div>
         
         <h1 className="text-xl font-bold text-foreground hidden md:block">
