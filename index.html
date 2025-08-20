@@ -20,5 +20,48 @@
   <body>
     <div id="root"></div>
     <script type="module" src="/src/main.tsx"></script>
+
+
+
+<script>
+        window.ChatWidgetConfig = {
+            webhook: {
+                url: 'https://beigevideo.app.n8n.cloud/webhook/110d0326-996e-47f7-ba03-4d4160fbc4e2/chat',
+                route: 'general'
+            },
+            branding: {
+                logo: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRPRzLOJMkLT34InOeRCb3VXaZMQq3kbfDxbA&s', 
+                botAvatarUrl: 'https://img.freepik.com/free-vector/chatbot-conversation-vectorart_78370-4107.jpg',
+                name: 'Beige Strategy Assistant',
+                poweredBy: {text:"Powered By Toby", link: "https://md-tabassum-hossain-emon.netlify.app/"},
+                welcomeText: 'Hi 👋, how can I help?',
+                responseTimeText: 'I typically respond right away',
+                buttonIconUrl: 'https://img.freepik.com/free-vector/chatbot-conversation-vectorart_78370-4107.jpg',
+                initialBotMessage: "Hello! I specialize in helping teams streamline their work by connecting business challenges to effective automation solutions. My focus is on making your day-to-day tasks more efficient—whether that’s in marketing, customer service, team collaboration, or operations—by recommending workflows by Toby that match your specific needs.Please feel free to let me know how I can help!",
+                tooltip: {
+                    text: 'Hi there 👋, need help?',
+                    backgroundColor: '#000000',
+                    fontColor: '#FFFFFF'
+                }
+            },
+            style: {
+                primaryColor: '#000000',
+                secondaryColor: '#6b3fd4',
+                position: 'right',
+                backgroundColor: '#F5F5DC', 
+                fontColor: '#333333',
+                autoWindowOpen: {
+                    autoOpen: true,
+                    openDelay: 5
+                },
+                messageFontSize: 14,
+                buttonSize: 90 
+            }
+        };
+    </script>
+  <script src="https://cdn.jsdelivr.net/gh/Emon-ProCoder7/chatui/chat-widget-v2.js"></script>
+
+
+
   </body>
 </html>
